@@ -1,0 +1,152 @@
+
+
+.btn-registro {
+  position: absolute;
+  top: 3px;
+  right: 10px; 
+  background-color: #4682B4;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+h1 {
+  font-size: 36px;
+  color: #45A0E6; /* Azul con matiz turquesa */
+  text-align: center; /* Centrar el título */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2), 0 0 20px rgba(0, 0, 0, 0.4);
+  border-radius: 10px; /* Borde redondeado */
+  padding: 10px; /* Espaciado interior */
+}
+
+header {
+  text-align: center;
+}
+
+header h2 {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  background-image: linear-gradient(to right, #C7C5B5, #45A0E6);
+  padding: 10px;
+  border: 0px solid #2E4053;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+header p {
+font-size: 25px !important;
+font-family: 'georgia', sans-serif !important;
+color: #FFFFFF !important;
+background-image: linear-gradient(to right, #C7C5B5, #45A0E6);
+padding: 10px;
+border: 0px solid #2E4053;
+border-radius: 10px;
+text-align: center;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+animation: aparecer 10s  !important;
+z-index: 10;
+position: relative;
+width: 35%;
+margin: 0 auto;
+}
+
+@keyframes aparecer {
+0% {
+opacity: 0;
+}
+100% {
+opacity: 1;
+}
+}
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+body {
+  background-image: url('fondo2.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.contenido {
+  position: relative;
+  z-index: 1;
+}
+
+header {
+  position: relative;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+}
+
+header p {
+  font-size: 18px;
+  color: #666;
+}
+
+
+:root {
+  --logo-size: 305px;
+}
+
+header img.logo-grande {
+  position: absolute;
+  top: 0;
+  left: 120px;
+  width: var(--logo-size);
+  height: auto;
+}
+
+.botón-whatsapp {
+  background-color: #25D366;
+  color: #fff;
+  height: 55px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  bottom: 6px;
+}
+
+
+a[href="formulario.html"] {
+  position: absolute;
+  top: 65px; /* ajusta esta valor para subir o bajar el botón */
+  right: 20px;
+  height: 35px;
+  padding: 10px;
+  background-color: #032B44; /* celeste/turquesa */
+  color: #FFFFFF; /* texto blanco */
+  border: none; /* sin bordes */
+  border-radius: 5px; /* esquinas redondeadas */
+  width: 150px; /* ancho ajustado */
+  text-align: center; /* texto centrado */
+  font-size: 16px; /* tamaño de fuente */
+  font-weight: bold; /* fuente negrita */
+}
+
+a[href="formulario.html"]:hover {
+  background-color: #34A8FF; /* celeste/turquesa oscuro */
+}
